@@ -22,7 +22,12 @@ def assign_rooms(arr)
   return newArr
 end
 
-def printer
+def printer(arr)
+  puts batch_badge_creator(arr)
+end
+puts assign_rooms(arr)
+end
+end
 
 #   describe '#printer' do
 
