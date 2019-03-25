@@ -7,8 +7,11 @@ end
 def batch_badge_creator(arr)
   newArr = []
   arr.each do |name|
-    newArr.push(name)
-  
+    newArr.push("Hello, my name is #{name}.")
+  end
+  return newArr
+end
+   
   
 
 #   describe '#batch_badge_creator' do
