@@ -13,7 +13,13 @@ def batch_badge_creator(arr)
 end
    
 def assign_rooms(arr)
-  
+  newArr = []
+  counter = 1
+  arr.each do |name|
+    newArr.push("Hello, #{name}! You'll be assigned to room #{counter!}")
+  end
+  return newArr
+end
 
 #   describe '#assign_rooms' do
 
